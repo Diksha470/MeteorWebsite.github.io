@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="Mystyle.css">
+</head>
+<body>
+	<img src="Meteor.jpg" width="1350" height="600">	
+		<div class="information">
+			<div class="overlay"></div>
+				<img src="VFAQ.png" class="Q1">
+			<div id="circle">
+			
+				<div class="Question one">
+					<div>
+						<h3>1.What is a meteor?</h3>
+						<p1>It is a small piece of rock, etc. in space.<br> When a meteor enters the <br>earth’s atmosphere it makes a bright line in the night sky</p1>	 
+					</div>
+				</div>
+				<div class="Question two">
+					<div>
+						<h3>2.How did the meteorite over Russia go undetected?</h3>
+						<p2>Easily, most meteors go undetected.Thousands of them impact Earth every day,but only rarely one this big of course.</p2>
+					</div>
+				</div>
+				<div class="Question three">
+					<div>
+						<h3>3.What is the difference <br>between a meteor and an asteroid? </h3>
+						<p3>A meteor is a (usually tiny, tiny, thank goodness) asteroid that happens to hit Earth. </p3>
+					</div>
+				</div>
+				<div class="Question four">
+					<div>
+						<h3>4. What is a meteor shower?</h3>
+						<p4>A meteor shower is a celestial event in which a number<br> of meteors are observed to radiate,<br> or originate, from one point in the night sky.</p4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="B">
+		<a href="index.html">Home</a>
+		</div>
+		<div class="controls">
+		<img src="up.png" id="up">
+		<h3>Questions</h3>
+		<img src="down.png" id="down">
+		</div>
+		
+		<script>
+			var circle=document.getElementById("circle");
+			var up=document.getElementById("up");
+			var down=document.getElementById("down");
+			
+			var rotatevalue=circle.style.transform;
+			var rotatesum;
+			
+			up.onclick=function()
+			{
+				rotatesum=rotatevalue + "rotate(-90deg)";
+				circle.style.transform=rotatesum;
+				rotatevalue=rotatesum;
+			}
+			
+			down.onclick=function()
+			{
+				rotatesum=rotatevalue + "rotate(90deg)";
+				circle.style.transform=rotatesum;
+				rotatevalue=rotatesum;
+			}
+		</script>
+</body>
+</html>

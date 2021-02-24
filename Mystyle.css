@@ -1,0 +1,177 @@
+
+h1{ position:absolute;
+	text-align:center;
+	top:3%;
+	left:43%;
+	color:white;
+	font-size:300%;
+	animation:animate 1.5s linear infinite;
+	}
+
+h2{ 
+	color:Red;
+	text-align:center;
+	margin-top: 90px;
+	margin-bottom: 100px;
+	margin-right: 1000px;
+}
+
+#VideoBG{
+	position:fixed;
+	z-index:-1;
+	width:100%;
+	height:auto;
+}
+
+.topnav {
+  overflow: hidden;
+  top:10px;
+  left:100px;
+ }
+ 
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+p{
+	color:white;
+	font-size: 20px;
+	position: fixed;
+	top:250;
+	left:80;
+}
+h6{
+	color:white;
+	font-size: 17px;
+	position: fixed;
+	top:150;
+	left:80;
+}
+h5{
+	color:white;
+	font-size: 17px;
+	position: fixed;
+	top:220;
+	left:80;
+}
+.B{
+	color:white;
+	font-size: 50px;
+	position: fixed;
+	top:0;
+	margin-top: 20px;
+	margin-left: 1200px;
+}
+ul {
+	color:white;
+	font-size: 20px;
+	position: fixed;
+	top:175;
+	left:80;
+	width:1170;
+}
+
+.information{
+	width:1000px;
+	height:1000px;
+	position:absolute;
+	top:50%;
+	left:-10%;
+	transform:translateY(-50%);
+}
+#circle{
+	width:600px;
+	height:600px;
+	position:absolute;
+	top:10;
+	left:80;
+	border-radius:50%;
+	transform:rotate(0deg);
+	transition:1s;
+}
+.Question img{
+	width:50px;
+}
+.Question {
+	position:absolute;
+}
+.Question div{
+	margin-left:30px;
+}
+.one{
+	top:410px;
+	right:-250px;
+	color:white;
+}
+.two{
+	top:-110px;
+	left:320px;
+	color:white;
+	transform:rotate(-90deg);
+}
+.three{
+	bottom:400px;
+	left:-450px;
+	color:white;
+	transform:rotate(-180deg);
+}
+.four{
+	bottom:-120px;
+	right:350px;
+	color:white;
+	transform:rotate(-270deg);
+}
+.Q1{
+	width:200px;
+	position:absolute;
+	top:50%;
+	left:35%;
+	transform:translateY(-50%);
+	z-index:1;
+}
+.controls{
+	position:absolute;
+	right:10%;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+}
+.controls h3{
+	margin:15px 0;
+	font-size:30px;
+	color:#fff;
+}
+#up{
+	width:100px;
+	cursor:pointer;
+}
+#down{
+	width:100px;
+	cursor:pointer;
+}
+.overlay{
+	width:0;
+	height:0;
+	border-top: 500px solid #fff;
+	border-right: 500px solid transparent;
+	border-bottom: 500px solid #fff;
+	border-left: 500px solid #fff;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.nav a:hover {
+  background-color: #ddd;
+ }
